@@ -1,0 +1,95 @@
+.AboutMeText{
+    direction: ltr;
+}
+.aboutMeTitle{
+    color: #FFF;
+    font-size: 2em;
+}
+.aboutMeText{
+    color:#FFF;
+    font-size: 1em;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.careerBack{
+    border-radius: 20px;
+    width: 360px;
+    height: 230px;
+    margin-right: 50px;
+    box-shadow: rgba(0, 0, 0, 0.096) 20px 30px 30px 5px;
+}
+.career{
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #202021;
+    transform: translate(0.5px, 0.5px);
+    width: 100%;
+    height: 99%;
+}
+.careerIcon{
+    font-size: 2.5em;
+}
+.careerTitle{
+    font-size: 1.5em;
+    color: #FFF
+}
+.careerText{
+    width:100%;
+    color: #FFF;
+    margin-bottom: 0px;
+}
+
+.oneText{
+    margin-bottom: 0px;
+}
+.hrYellow{
+    width: 40px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: yellow
+}
+.hrLongYellow{
+    width: 70px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: yellow
+}
+
+/*
+    hide page
+*/
+
+.hideingPage{
+    transition: all 0.3s;
+    display: none;
+    background: rgba(34, 34, 34, 0.349);
+    backdrop-filter: blur(10px);
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.hidePageContentBack{
+    display: none;
+    height: 500px;
+    margin: 12% auto 0 auto;
+    background: linear-gradient(110deg ,rgb(206, 176, 9), #333, #333);
+    padding-top: 1px;
+    padding-left: 1px;
+    border-radius: 20px;
+}
+.hidePageContent{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #222;
+}
+.carerContent{
+    padding: 5%;
+}
+.careerContentIcon{
+    font-size: 7em;
+}

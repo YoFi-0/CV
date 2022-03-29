@@ -1,0 +1,56 @@
+.WorkContent{
+    margin: 100px 0 0 0;
+    text-align: center;
+}
+.title{
+    color:#FFF
+}
+.image{
+    border-radius: 20px;
+}
+.imgaeBack{
+    padding: 3px 3px 3px 3px;
+    background: linear-gradient(125deg, #888, #555, #333);
+    border-radius: 20px;
+}
+.backIcon{
+    padding:1px 0 0 1px;
+    border-radius: 10px;
+    background: linear-gradient(125deg, yellow, #333, #111);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    box-shadow: #000 10px 10px 50px 5px;
+}
+.icon{
+    padding:15px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    background-color: #333;
+    width: 100%;
+    height: 100%;
+}
+.backVideo{
+    padding: 6px 6px 0 6px;
+    background: linear-gradient(125deg, #888, #222, #111);
+    border-radius: 20px;
+    margin: auto
+}
+.video{
+    border-radius: 20px;
+    margin: 0;
+}
+.textContent{
+    font-size: 1.1em;
+    font-weight: 500;
+    word-wrap: break-word;
+    text-align:end;
+    color:#FFF
+}
+.text{
+    color:#FFF
+}
+/*ar */
+.flexDir{
+    flex-direction: row-reverse;
+}

@@ -1,0 +1,103 @@
+
+
+.baba{
+    width:100%;
+}
+/*
+.protoElm{
+    width:75%;
+    margin: auto;
+}
+.backPorto{
+    width: 300px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+/*d-flex flex-wrap justify-content-around
+.backPortoImg{
+    border-radius: 20px;
+}
+.porto:hover{
+    background: rgba(0, 0, 0, 0.342);
+}
+.porto{
+    cursor: pointer;
+    transition: all 0.2s;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+    top:0;
+    left: 0;
+} */
+.protoWork{
+    transition: top 0.3s;
+    position: relative;
+}
+.protoElm{
+    width: 100%;
+    margin: auto;
+    position:relative;
+}
+.protoImage{
+    border-radius: 20px;
+    width:300px;
+    margin: 0;
+    transition: all 0.3s;
+    position: relative;
+}
+
+.backgroundBlur{
+    width:100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+    top:0;
+    left: 0;
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.1s;
+    padding-top: 27%;
+}
+.theimage{
+    border-radius: 20px;
+}
+.protoIcon{
+    transition: all 0.2s;
+    transform: scale(0, 0);
+    font-size: 1.5em;
+    /* backdrop-filter: blur(2px); */
+    border-radius: 5px;
+    padding: 15px 20px;
+    z-index: 1;
+    background: rgba(92, 87, 87, 0.76);
+}
+.protoType{
+    width: 30%
+}
+.portoText:hover{
+    color: rgb(229, 236, 128);
+    text-shadow: rgb(238, 255, 0) 0 0 15px;
+}
+
+.portoText{
+    font-size: 1.1em;
+    font-weight: 500;
+    transition: all 0.2s;
+    cursor: pointer;
+    color: #FFF;
+    margin-right: 20%;
+}
+
+/*
+    js
+*/
+
+.protoImageJs {
+    border-radius: 20px;
+    width:300px;
+    margin: 0;
+    position: absolute;
+    transform: translate(30%, 100%);
+}

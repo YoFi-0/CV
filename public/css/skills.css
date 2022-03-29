@@ -1,0 +1,50 @@
+.digramBack{
+    width: 120px;
+    background-color: black;
+    border-radius: 20px;
+    padding-left:1px;
+    padding-top: 1px;
+    padding-right: 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 10px 10px 10px 1px;
+}
+.digram{
+    border-radius: 20px;
+    width:100%;
+    height: 100%;
+    background: #333;
+    padding-top: 30px;
+    padding-bottom: 25px
+}
+.skillName{
+    color: #FFF;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.skillChartBack{
+    width: 1px;
+    height: 25px;
+    border-radius: 5px;
+    background: linear-gradient(90deg , #333, #333 ,rgb(206, 176, 9));
+    position: absolute;
+    transform: translate(0, -60px);
+    z-index: -1;
+    transition:all 1s;
+    text-align: end;
+    padding:1px
+}
+.skillChart{
+    border-radius: 5px;
+    width:100%;
+    height: 100%;
+    background: #333;
+    transition: all 0.3s;
+}
+.skillChartValue{
+    transition: all 0.1s;
+    color: rgb(195, 255, 0);
+    text-shadow: rgb(255, 217, 0) 0 0 20px;
+    transform: translate(50px, -33px);
+    font-size: 1.5em;
+    border-radius: 50%;
+    margin: 0;
+}
