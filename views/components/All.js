@@ -16,7 +16,7 @@ class Lang extends React.Component {
 
 const infos = [
     {key: 0, iconClass: 'far fa-envelope', infoTitle: 'EMAIL', info: 'yofi.6767@gmail.com',  id:"infoItme0"},
-    {key: 1, iconClass: 'fa-brands fa-whatsapp', infoTitle: 'PHONE', info: '+966500973608', id:"infoItme1"},
+    {key: 1, iconClass: 'fa-brands fa-whatsapp', infoTitle: 'PHONE', info: '+966500000000', id:"infoItme1"},
     {key: 2, iconClass: 'fas fa-birthday-cake', infoTitle: 'BIRTHDAY', info: 'March 29, 2000', id:"infoItme2"},
     {key: 3, iconClass: 'fas fa-globe-americas', infoTitle: 'LOCATION', info: 'SAUDI ARABIA , MAKKAH ,JEDDAH',id:"infoItme3"}
 ];
@@ -121,7 +121,7 @@ class MoveAround extends React.Component{
 
 const infosAr = [
     {key: 0, iconClass: 'far fa-envelope', infoTitle: 'إيميل', info: 'yofi.6767@gmail.com',  id:"infoItme0"},
-    {key: 1, iconClass: 'fa-brands fa-whatsapp', infoTitle: 'رقم الجوال', info: '+966500973608', id:"infoItme1"},
+    {key: 1, iconClass: 'fa-brands fa-whatsapp', infoTitle: 'رقم الجوال', info: '+966500000000', id:"infoItme1"},
     {key: 2, iconClass: 'fas fa-birthday-cake', infoTitle: 'تاريخ الميلاد', info: '2000/29/مارس', id:"infoItme2"},
     {key: 3, iconClass: 'fas fa-globe-americas', infoTitle: 'الموقع', info: 'السعودية , مكة , جدة',id:"infoItme3"}
 ];
